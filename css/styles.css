@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.about {
+    color: #099D8D;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight:normal;
+    text-align: center;
+    margin: 30px;
+}
+.name {
+    font-family: 'OpenSans-Regular';
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin: 0px;
+}
+.profiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.description {
+    font-family: 'OpenSans-Regular';
+    font-size: 16px;
+    display: block;
+    margin: 15px auto;
+    padding: 50px;
+}
+
+.picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px #b8b8b9;
+    margin-bottom: 15px;    
+}
+.icons {
+    list-style-type: none;
+    display: inline-flex;
+    color: grey;
+    margin: 15px auto 45px auto;
+    padding: 0;
+}
+.profile1 {
+    text-align: center;
+}
