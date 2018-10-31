@@ -1,6 +1,64 @@
 * {
     box-sizing: border-box;
 }
+
+
+.header {
+    position: relative;
+width: 100%;
+height: 421px;
+background-image: url("http://autocaravanaymanta.com/wp-content/uploads/2016/12/fiebre-de-s%C3%A1bado-noche-en-la-autocaravana-500x500.jpg");
+}
+
+.contenedor-nombre {
+    height: 60px;
+    background-color: rgba(9, 157, 142, 0.8);
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.texto {
+    margin: 0;
+    padding-top: 22px;
+    text-align: center;
+    font-size: inherit;
+    
+}
+
+.menu {
+    height: 45px;
+    background-color: #1fcfbd80;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.lista {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+justify-content: space-between;
+padding-inline-end: 40px;
+}
+
+.claim {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    font-size: 18px;
+  transform: translate(0px, 272px);
+  text-align: center;
+
+}
 .about {
     color: #099D8D;
     font-family: 'Rubik', sans-serif;
@@ -45,4 +103,35 @@
 }
 .profile1 {
     text-align: center;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
+.name-group-footer {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #b8b8b9;
+    font-size: 14px;
+    
+}
+
+.lista-footer {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    color: #54585A;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+
+.image-footer {
+    display: block;
+    margin: auto;
+    width: 115.9px;
+    height: 45px;
 }
