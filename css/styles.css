@@ -82,6 +82,8 @@
     color: #099D8D;
     font-weight: 100;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .description-team {
@@ -89,6 +91,7 @@
     font-size: 16px;
     color: #54585A;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .team-1 {
@@ -97,6 +100,7 @@
     color: #099D8D;
     font-weight: 100;
     text-align: center;
+    margin-top: 30px;
 }
 
 .about {
@@ -125,27 +129,52 @@
     font-size: 16px;
     display: block;
     margin: 15px auto;
-    color: #54585A;
-    
+    color: #54585A;    
 }
 
 .picture {
     width: 180px;
     height: 180px;
-    border-radius: 8px #b8b8b9;
+    border: 3px solid #b8b8b9;
+    border-radius: 8px;
     margin-bottom: 15px;    
 }
 .icons {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     color: grey;
-    margin: 15px auto 45px auto;
+    margin-top: 15px;
+    margin-bottom: 45px;
     padding: 0;
     
 }
 
 .iconcolor {
     color: #099D8D;
+}
+
+.menu__item {
+    margin-right: 20px;
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.menu__item {
+    position: relative;
+}
+
+.menu__item + .menu__item::before {
+    content:'';
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    background: black;
+    position: absolute;
+    top: 40%;
 }
 
 .profile1 {
