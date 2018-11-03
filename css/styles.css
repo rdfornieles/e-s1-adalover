@@ -59,12 +59,18 @@
     padding: 15px;
     margin: 15px;
     font-size: 18px;
+<<<<<<< HEAD
+   transform: translate(0px, 272px);
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+=======
     position: absolute;
     bottom: -30px;
     margin: auto;
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
+>>>>>>> d5e20cfb79774c1a974010260f438f04249012fc
 
 }
 
