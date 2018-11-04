@@ -135,7 +135,7 @@
 .picture {
     width: 180px;
     height: 180px;
-    border: 3px solid #b8b8b9;
+    border: 4px solid #e0dfdf;
     border-radius: 8px;
     margin-bottom: 15px;    
 }
@@ -152,29 +152,6 @@
 
 .iconcolor {
     color: #099D8D;
-}
-
-.menu__item {
-    margin-right: 20px;
-}
-
-.menu__item:last-child {
-    margin: 0;
-}
-
-.menu__item {
-    position: relative;
-}
-
-.menu__item + .menu__item::before {
-    content:'';
-    height: 3px;
-    width: 3px;
-    border-radius: 50%;
-    display: inline-block;
-    background: black;
-    position: absolute;
-    top: 40%;
 }
 
 .profile1 {
