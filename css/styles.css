@@ -190,3 +190,11 @@ footer {
     width: 115.9px;
     height: 45px;
 }
+
+@media all and (min-width: 768px) {
+    .footer-tablet {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
