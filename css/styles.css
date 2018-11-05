@@ -96,6 +96,8 @@
 }
 .strenghs {
     background-color: #f1f1f1;
+    padding-top: 30px;
+    padding-bottom: 45px;
 }
 .team-1 {
     font-family: 'Rubik', sans-serif;
@@ -103,7 +105,9 @@
     color: #099D8D;
     font-weight: 100;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .about {
