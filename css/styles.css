@@ -1,27 +1,32 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
+/* HEADER */
 
 .header {
     position: relative;
-width: 100%;
-height: 421px;
-background-image: url("http://autocaravanaymanta.com/wp-content/uploads/2016/12/fiebre-de-s%C3%A1bado-noche-en-la-autocaravana-500x500.jpg");
+    width: 100%;
+    height: 421px;
+    background-image: url("../photos/cabecera.jpg");
+    background-size: cover;
 }
 
-.contenedor-nombre {
-    height: 60px;
-    background-color: rgba(9, 157, 142, 0.8);
+.container-name {
+    background-color: rgba(9, 157, 142, 0.95);
     color:white;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-.texto {
+.group-name {
     margin: 0;
     padding-top: 22px;
+    padding-bottom: 22px;
     text-align: center;
     font-size: inherit;
     
@@ -29,24 +34,30 @@ background-image: url("http://autocaravanaymanta.com/wp-content/uploads/2016/12/
 
 .menu {
     height: 45px;
-    background-color: #1fcfbd80;
+    background-color: #1fcfbda6;
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
-.lista {
+.list {
     width: 100%;
     display: flex;
     flex-direction: row;
     list-style-type: none;
-justify-content: space-between;
-padding-inline-end: 40px;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item-list {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
 }
 
 .claim {
@@ -55,10 +66,44 @@ padding-inline-end: 40px;
     padding: 15px;
     margin: 15px;
     font-size: 18px;
-  transform: translate(0px, 272px);
-  text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -30px;
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
 
 }
+/* MAIN */
+
+.team {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099D8D;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description-team {
+    font-family: 'OpenSans-Regular';
+    font-size: 16px;
+    color: #54585A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #099D8D;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .about {
     color: #099D8D;
     font-family: 'Rubik', sans-serif;
@@ -85,25 +130,35 @@ padding-inline-end: 40px;
     font-size: 16px;
     display: block;
     margin: 15px auto;
-    padding: 50px;
+    color: #54585A;    
 }
 
 .picture {
     width: 180px;
     height: 180px;
-    border-radius: 8px #b8b8b9;
+    border: 4px solid #e0dfdf;
+    border-radius: 8px;
     margin-bottom: 15px;    
 }
 .icons {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     color: grey;
-    margin: 15px auto 45px auto;
+    margin-top: 15px;
+    margin-bottom: 45px;
     padding: 0;
 }
+
+.iconcolor {
+    color: #099D8D;
+}
+
 .profile1 {
     text-align: center;
 }
+
+/* FOOTER */
 
 footer {
     border-top: 1px solid grey;
@@ -119,7 +174,7 @@ footer {
     
 }
 
-.lista-footer {
+.list-footer {
     list-style-type: none;
     text-align: center;
     padding: 0px;
