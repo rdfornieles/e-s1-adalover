@@ -88,7 +88,7 @@
 }
 
 .description-team {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #54585A;
     text-align: center;
@@ -115,7 +115,7 @@
     margin: 30px;
 }
 .name {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: normal;
     display: block;
@@ -128,7 +128,7 @@
     justify-content: center;
 }
 .description {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     display: block;
     margin: 15px auto;
