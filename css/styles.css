@@ -88,20 +88,26 @@
 }
 
 .description-team {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #54585A;
     text-align: center;
     margin-bottom: 30px;
 }
-
+.strenghs {
+    background-color: #f1f1f1;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
 .team-1 {
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
     color: #099D8D;
     font-weight: 100;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .about {
@@ -113,7 +119,7 @@
     margin: 30px;
 }
 .name {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: normal;
     display: block;
@@ -126,7 +132,7 @@
     justify-content: center;
 }
 .description {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     display: block;
     margin: 15px auto;
