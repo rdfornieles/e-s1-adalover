@@ -73,6 +73,7 @@
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
+    min-width: 250px;
 
 }
 /* MAIN */
@@ -83,7 +84,7 @@
     color: #099D8D;
     font-weight: 100;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-bottom: 15px;
 }
 
@@ -99,7 +100,7 @@
 .strenghs {
     background-color: #f1f1f1;
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
     
 }
 .team-1 {
@@ -156,11 +157,11 @@
 .icons {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: white;
     margin-top: 15px;
     margin-bottom: 45px;
-    padding: 0;
+    padding: 0px 100px;
 }
 
 
