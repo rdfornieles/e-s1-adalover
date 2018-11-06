@@ -82,6 +82,7 @@
     .container-name{
         display: flex;
         justify-content: space-between;
+        height: 60px;
         padding-right: 45px;
         padding-left: 45px;
     }
@@ -100,6 +101,16 @@
     .item-list {
         padding: 0px;
     }
+
+.claim {
+    width: 441px;
+    padding: 30px 15px;
+    bottom: -1px;
+    background-color: rgba(255, 255, 255, 0.829);
+    left: 55px;
+    transform: none;
+}
+
 }
 
 /* MAIN */
