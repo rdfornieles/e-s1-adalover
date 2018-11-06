@@ -235,6 +235,9 @@
     .about {
         margin: 45px;
     }
+    body {
+        margin: 0px;
+    }
     .left {
         display: flex;
         flex-direction: row;
@@ -246,6 +249,15 @@
     .picture {
         width: 250px;
         height: 250px;
+    }
+    .description-left {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    .icons {
+        padding-left: 0px;
     }
 }
 
