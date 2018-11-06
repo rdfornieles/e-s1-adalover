@@ -113,6 +113,12 @@
 
 }
 
+@media all and (min-width: 1200px) {
+.header {
+    height: 550px;
+}
+}
+
 /* MAIN */
 
 @media all and (min-width: 786px) {
