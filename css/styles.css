@@ -181,6 +181,18 @@
     text-align: center;
 }
 
+@media all and (min-width: 768px) {
+    .left {
+        display: flex;
+        flex-direction: row;
+    }
+    .right {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+}
+
 /* FOOTER */
 
 footer {
