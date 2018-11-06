@@ -103,6 +103,14 @@
     padding-bottom: 15px;
     
 }
+.form {
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%) rotate(0.38turn);
+}
 .team-1 {
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
