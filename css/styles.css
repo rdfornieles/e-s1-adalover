@@ -104,6 +104,30 @@
 
 /* MAIN */
 
+@media all and (min-width: 786px) {
+.strenghs {
+    display: flex;
+    flex-direction: row;
+
+}
+
+    .strenghs-tablet {
+        display: inline-block;
+       width: 50%;
+       order: 1;
+   }
+
+   .weakness-tablet {
+       display: inline-block;
+    width: 50%;
+    order: 2;
+ 
+   }
+ 
+    
+}
+
+
 .team {
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
@@ -247,9 +271,45 @@ footer {
 
 @media all and (min-width: 768px) {
     .footer-tablet {
+        height: 170px;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .name-group-footer {
+       margin-top: 30px;
+       margin-bottom: 15px;
+       margin-left: 30px;
+    }
+
+    .menu-footer {
+        order: 3;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .list-footer {
+        text-align: right;
+    }
+
+    .logo-footer {
+        order: 2;
+        position: absolute;
+        left: 0;
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .image-footer {
+        width: 115,9px;
+        height: 45px;
+    }
+
+    .item-list-footer {
+        display: inline-block;
+        margin-bottom: 10px;
     }
     
 }
+
