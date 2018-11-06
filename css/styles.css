@@ -195,7 +195,6 @@ footer {
     color: #54585A;
     font-size: 14px;
     margin-bottom: 30px;
-
 }
 
 .image-footer {
@@ -203,4 +202,19 @@ footer {
     margin: auto;
     width: 115.9px;
     height: 45px;
+}
+
+.item-list-footer {
+    text-decoration: none;
+    color: #54585A;
+}
+
+
+@media all and (min-width: 768px) {
+    .footer-tablet {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
 }
