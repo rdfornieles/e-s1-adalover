@@ -93,11 +93,14 @@
     color: #54585A;
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .strenghs {
     background-color: #f1f1f1;
     padding-top: 30px;
     padding-bottom: 45px;
+    
 }
 .team-1 {
     font-family: 'Rubik', sans-serif;
@@ -107,6 +110,7 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    
     
 }
 
@@ -135,7 +139,9 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     display: block;
-    margin: 15px auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-block-start: 15px;
     color: #54585A;    
 }
 
@@ -151,11 +157,12 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    color: grey;
+    color: white;
     margin-top: 15px;
     margin-bottom: 45px;
     padding: 0;
 }
+
 
 .iconcolor {
     color: #099D8D;
