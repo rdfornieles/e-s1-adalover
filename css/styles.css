@@ -104,7 +104,7 @@
 
 /* MAIN */
 
-@media all and (min-width: 786px) {
+@media all and (min-width: 768px) {
 .strenghs {
     display: flex;
     flex-direction: row;
@@ -237,6 +237,9 @@
     }
     body {
         margin: 0px;
+    }
+    .profiles{
+        padding: 0px 30px;
     }
     .left {
         display: flex;
