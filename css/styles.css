@@ -251,14 +251,30 @@
         height: 250px;
     }
     .description-left {
+        margin-left: 30px;
         display: flex;
         flex-direction: column;
         text-align: left;
-        
+    }
+    .description-right {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+    
     }
     .icons {
         padding-left: 0px;
+        width: 120px;
+        justify-content: space-between;
+        padding: 0px;
     }
+    .description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 /* FOOTER */
