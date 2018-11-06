@@ -213,8 +213,23 @@ footer {
 @media all and (min-width: 768px) {
     .footer-tablet {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
-    
+    .name-group-footer {
+        order: 1;
+    }
+
+    .menu-footer {
+        order: 3;
+    }
+
+    .logo-footer {
+        order: 2;
+    }
+
+    .image-footer {
+        width: 115,9px;
+        height: 45px;
+    }
 }
