@@ -121,7 +121,7 @@
 
 /* MAIN */
 
-@media all and (min-width: 786px) {
+@media all and (min-width: 768px) {
 .strenghs {
     display: flex;
     flex-direction: row;
@@ -252,6 +252,12 @@
     .about {
         margin: 45px;
     }
+    body {
+        margin: 0px;
+    }
+    .profiles{
+        padding: 0px 30px;
+    }
     .left {
         display: flex;
         flex-direction: row;
@@ -264,6 +270,31 @@
         width: 250px;
         height: 250px;
     }
+    .description-left {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .description-right {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+    
+    }
+    .icons {
+        padding-left: 0px;
+        width: 120px;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 /* FOOTER */
