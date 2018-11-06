@@ -78,6 +78,30 @@
 }
 /* MAIN */
 
+@media all and (min-width: 786px) {
+.strenghs {
+    display: flex;
+    flex-direction: row;
+
+}
+
+    .strenghs-tablet {
+        display: inline-block;
+       width: 50%;
+       order: 1;
+   }
+
+   .weakness-tablet {
+       display: inline-block;
+    width: 50%;
+    order: 2;
+ 
+   }
+ 
+    
+}
+
+
 .team {
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
@@ -260,4 +284,10 @@ footer {
         display: inline-block;
         margin-bottom: 10px;
     }
+<<<<<<< HEAD
 }
+=======
+    
+}
+
+>>>>>>> 688dbc013c832767d3a257cfc1545eaaab0fc6a1
