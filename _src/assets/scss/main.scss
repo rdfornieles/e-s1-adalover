@@ -295,6 +295,36 @@
         margin-right: 0px;
     }
 
+
+@media all and (min-width: 1200px) {
+
+    .description-team {
+        margin-bottom: 60px;
+    }
+
+    .strenghs {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+
+    .description-left {
+        margin-left: 45px;
+        margin-bottom: 15px;
+        margin-block-end: 60px;
+    }
+    .description-right {
+        margin-right: 45px;
+        margin-bottom: 15px;
+        margin-block-end: 60px;
+    }
+
+    .picture {
+        width: 278px;
+        height: 278px;
+    }
+
+}
+
 }
 
 /* FOOTER */
