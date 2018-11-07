@@ -125,23 +125,19 @@
 .strenghs {
     display: flex;
     flex-direction: row;
-
 }
 
-    .strenghs-tablet {
-        display: inline-block;
-       width: 50%;
-       order: 1;
+.strenghs-tablet {
+    display: inline-block;
+    width: 50%;
+    order: 1;
    }
 
-   .weakness-tablet {
-       display: inline-block;
+.weakness-tablet {
+    display: inline-block;
     width: 50%;
     order: 2;
- 
-   }
- 
-    
+   }  
 }
 
 
