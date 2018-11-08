@@ -63,4 +63,35 @@
        }
      
         
+       @media all and (min-width: 1200px) {
+       .description-left {
+        margin-left: 45px;
+        margin-right: 200px;
+        margin-bottom: 15px;
+        margin-block-end: 60px;
+        margin-block-start: 45px;
+    }
+    .description-right {
+        margin-right: 45px;
+        margin-left: 200px;
+        margin-bottom: 15px;
+        margin-block-end: 60px;
+        margin-block-start: 45px;
+    }
+     .picture {
+        width: 278px;
+        height: 278px;
+        
+    }
+
+    .picture-left {
+        margin-left: 100px;
+    }
+
+    .picture-right {
+        margin-right: 100px;
+    }
+ 
+ }
+
     }
