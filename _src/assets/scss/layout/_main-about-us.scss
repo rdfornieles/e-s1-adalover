@@ -103,4 +103,15 @@
         margin-right: 0px;
     }
 
+    @media all and (min-width: 1200px) {
+        .description-team {
+           margin-bottom: 60px;
+           margin-left: 200px;
+           margin-right: 200px;
+       }
+        .strenghs {
+           padding-top: 30px;
+           padding-bottom: 15px;
+       }
+    }
 }
