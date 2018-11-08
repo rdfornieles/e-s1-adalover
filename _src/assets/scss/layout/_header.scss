@@ -1,0 +1,113 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 421px;
+    background-image: url("../images/cabecera.jpg");
+    background-size: cover;
+}
+
+.container-name {
+    background-color: rgba(9, 157, 142, 0.95);
+    color:white;
+    font-family: $fontprincipal;
+    font-size: $sizetext;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.group-name {
+    margin: 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+    font-size: inherit;
+    
+}
+
+.menu {
+    height: 45px;
+    background-color: $colorprincipal;
+    color: white;
+    font-family: $fontprincipal;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item-list {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.claim {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    font-size: 18px;
+    font-family: $fontsecond;
+    position: absolute;
+    bottom: -30px;
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 250px;
+
+}
+
+@media all and (min-width: 768px) {
+
+    .container-name{
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+    .menu {
+        background-color: inherit;
+        padding-top: 22px;
+    }
+
+    .list {
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+    }
+
+    .item-list {
+        padding: 0px;
+    }
+
+.claim {
+    width: 441px;
+    padding: 30px 15px;
+    bottom: -1px;
+    background-color: rgba(255, 255, 255, 0.829);
+    left: 55px;
+    transform: none;
+}
+
+}
+
+@media all and (min-width: 1200px) {
+.header {
+    height: 550px;
+}
+}
