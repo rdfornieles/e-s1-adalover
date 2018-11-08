@@ -50,9 +50,17 @@
 }
 
 .comments {
-    min-height: 100px;
+    min-height: 105px;
 }
 
 .bluestart {
     color: $colortext;
+}
+
+
+@media all and (min-width:768px) {
+    .main-contact {
+        width: 442px;
+        margin: 0 auto;
+    }
 }
