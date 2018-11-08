@@ -1,0 +1,19 @@
+.button-form {
+    height: 45px;
+    background-color: $colortext;
+    color: white;
+    font-family: $fontprincipal;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+@media all and (min-width:768px) {
+    .button-form {
+        width: 206px;
+        height: 45px;
+        margin-left: 50%;
+    }
+}
