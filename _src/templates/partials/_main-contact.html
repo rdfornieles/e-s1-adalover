@@ -1,0 +1,18 @@
+<main class="main-contact">
+    <h1 class="tittle-contact">CONTACTO</h1>
+    <div class="text-contact1"></div>
+    <div class="text-contact2">
+        <p>Todos los campos marcados con <span class="bluestart">*</span> son obligatorios</p>
+    </div>
+
+    <form action="/signup" method="post">
+    <label for="completname">Nombre completo<span class="bluestart">*</span></label>
+    <input placeholder="Nombre..." id="completname" type="text" name="completname">
+    <label for="emailAddress">Email<span class="bluestart">*</span></label>
+    <input value="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress">
+    <label for="telephone">Teléfono</label>
+    <input placeholder="Ej.123456789" id="telephone" type="tel" name="telephone" pattern="[1-9]{9}">
+    <label for="comments">Mensaje<span class="bluestart">*</span></label>
+    <textarea placeholder="¿Qué necesitas" id="comments" name="comments" rows="8" cols="80"></textarea>   
+    </form>
+</main>
