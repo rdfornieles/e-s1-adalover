@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Contacto</title>
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="container-name">
+                 <h1 class="group-name">
+            ADALOVER
+        </h1>
+
+                <nav class="menu">
+                    <ul class="list">
+                        <li><a class="item-list" href="#textteam">EQUIPO</a>
+
+                        </li>
+                        <li><a class="item-list" href="#textabout">QUIENES SOMOS</a> 
+                        </li>
+                        <li><a class="item-list" href="contact.html">CONTACTO</a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-contact">
+             <h1 class="tittle-contact">CONTACTO</h1>
+
+            <div class="text-contact1">
+                <p>¡Hola!
+                    <br>Si has llegado hasta aquí es porque tienes alguna duda, pregunta o te
+                    has quedado fascinado y quieres contratarnos. Déjanos tu comentario y pronto
+                    tendrás noticias nuestras.
+                    <br>¡Muchas gracias!</p>
+            </div>
+            <div class="text-contact2">
+                <p>Todos los campos marcados con <span class="bluestart">*</span> son obligatorios</p>
+            </div>
+            <form action="/signup" method="post" class="form-contact">
+                <label for="completname" class="label-form">Nombre completo <span class="bluestart">*</span>
+
+                </label>
+                <input placeholder="Nombre..." id="completname" type="text" name="completname"
+                class="item-form" required>
+                <label for="emailAddress" class="label-form">Email <span class="bluestart">*</span>
+
+                </label>
+                <input value="nombre.apellidos@mail.com" id="emailAddress" type="email"
+                name="emailAddress" class="item-form email-value" required>
+                <label for="telephone" class="label-form">Teléfono</label>
+                <input placeholder="Ej.123456789" id="telephone" type="tel"
+                name="telephone" pattern="[1-9]{9}" class="item-form">
+                <label for="comments" class="label-form">Mensaje <span class="bluestart">*</span>
+
+                </label>
+                <textarea placeholder="¿Qué necesitas? JE JE" id="comments" name="comments"
+                rows="8" cols="80" class="item-form comments" required></textarea>
+                <input type="submit" value="enviar" class="button-form">
+            </form>
+        </main>
+        <footer>
+            <section class="footer-tablet">
+                <div class="name-group-footer"> <small> ADALOVER © 2018</small>
+
+                </div>
+                <nav class="menu-footer">
+                    <ul class="list-footer">
+                        <li><a class="item-list-footer" href="#textteam">EQUIPO</a>
+
+                        </li>
+                        <li><a class="item-list-footer" href="#textabout">QUIENES SOMOS</a>
+
+                        </li>
+                        <li><a class="item-list-footer" href="contact.html">CONTACTO</a>
+
+                        </li>
+                    </ul>
+                </nav>
+                <div class="logo-footer"> <a target="blank" href="https://adalab.es/"><img class="image-footer" src="https://raw.githubusercontent.com/Adalab/materiales-front-end-E/66d91c05bb798b346cc3b2dd0b7514ac63e6ec43/proyectos/assets/images/logo-adalab.png"
+                    alt="logo-adalab"></a>
+
+                </div>
+            </section>
+        </footer>
+    </body>
+
+</html>
