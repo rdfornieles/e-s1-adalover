@@ -8,9 +8,6 @@
 
 .container-name {
     background-color: rgba(9, 157, 142, 0.95);
-    color:white;
-    font-family: $fontprincipal;
-    font-size: $sizetext;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -23,6 +20,12 @@
     text-align: center;
     font-size: inherit;
     
+}
+.link__main {
+    text-decoration: none;
+    color:white;
+    font-family: $fontprincipal;
+    font-size: $sizetext;
 }
 
 .menu {
