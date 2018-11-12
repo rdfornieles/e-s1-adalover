@@ -57,10 +57,18 @@
     color: $colortext;
 }
 
+.header {
+    height: 300px;
+}
 
 @media all and (min-width:768px) {
     .main-contact {
         width: 442px;
         margin: 0 auto;
+    }
+}
+@media all and (min-width: 1200px) {
+    .header {
+        height: 400px;
     }
 }
