@@ -15,7 +15,7 @@
     </head>
     
     <body>
-        <header class="header">
+        <header class="header__contact">
             <div class="container-name">
                  <h1 class="group-name">
             <a class="link__main" href="index.html">ADALOVER</a>
@@ -46,7 +46,7 @@
                     <br>¡Muchas gracias!</p>
             </div>
             <div class="text-contact2">
-                <p>Todos los campos marcados con <span class="bluestart">*</span> son obligatorios</p>
+                <p class="contact__welcome">Todos los campos marcados con <span class="bluestart">*</span> son obligatorios</p>
             </div>
             <form action="/signup" method="post" class="form-contact">
                 <label for="completname" class="label-form">Nombre completo <span class="bluestart">*</span>
@@ -54,7 +54,9 @@
                 </label>
                 <input placeholder="Nombre..." id="completname" type="text" name="completname"
                 class="item-form" required>
-                <label for="emailAddress" class="label-form">Email <span class="bluestart">*</span>
+                <div class="email-phone__box">
+                    <div class="email__box">
+                        <label for="emailAddress" class="label-form">Email <span class="bluestart">*</span>
 
                 </label>
                 <input value="nombre.apellidos@mail.com" id="emailAddress" type="email"
