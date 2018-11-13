@@ -1,3 +1,4 @@
+
 .about {
     color: #099D8D;
     font-family: 'Rubik', sans-serif;
@@ -65,6 +66,14 @@
     grid-column: 1 / 2;
 }
 
+.links-about-us {
+    border: 1px solid gray;
+    position: absolute;
+    top: 950px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
 @media all and (min-width: 768px) {
     .about {
         margin: 45px;
@@ -110,6 +119,9 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .links-about-us {
+        top: 650px;
+    }
     @media all and (min-width: 1200px) {
         .description-left {
             margin-left: 45px;
@@ -124,6 +136,9 @@
             margin-bottom: 15px;
             margin-block-end: 60px;
             margin-block-start: 45px;
+        }
+        .links-about-us {
+            top: 780px;
         }
     }
 }
