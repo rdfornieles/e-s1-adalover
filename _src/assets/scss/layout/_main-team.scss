@@ -2,7 +2,6 @@
     position: relative;
 }
 .links-team {
-    border: 1px solid gray;
     position: absolute;
     bottom: 330px;
     width: 100px;
@@ -72,9 +71,11 @@
         width: 50%;
         order: 2;
     }
-    @media all and (min-width: 1200px) {
-        .description-team {
-            margin-bottom: 60px;
+}
+
+@media all and (min-width: 1200px) {
+    .description-team {
+        margin-bottom: 60px;
             margin-left: 80px;
             margin-right: 80px;
         }
@@ -91,5 +92,7 @@
         .picture-right {
             margin-right: 100px;
         }
+        .links-team {
+            top: -88px;
+        }
     }
-}
