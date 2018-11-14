@@ -63,8 +63,8 @@
     list-style-type: none;
     justify-content: space-between;
     padding: 0;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .item-list {
@@ -81,7 +81,6 @@
     color: black;
     background-color: white;
     padding: 15px;
-    margin: 15px;
     font-size: 18px;
     font-family: $fontsecond;
     position: absolute;
@@ -90,7 +89,7 @@
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
-    min-width: 250px;
+    min-width: 290px;
 }
 
 .claim__hidden {
