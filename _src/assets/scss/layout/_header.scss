@@ -14,6 +14,10 @@
     text-transform: uppercase;
 }
 
+.animation {
+    position: relative;
+    height: 30px;
+}
 
 .group-name {
     margin: 0;
@@ -28,6 +32,10 @@
     color:white;
     font-family: $fontprincipal;
     font-size: $sizetext;
+
+    &:hover {
+        font-size: 20px;
+    }
 }
 
 .menu {
@@ -56,10 +64,12 @@
     display: inline-block;
     text-decoration: none;
     color: white;
+  
 }
 
 .item-list:hover {
     border-bottom: 2px solid white;
+
 }
 
 .claim {
