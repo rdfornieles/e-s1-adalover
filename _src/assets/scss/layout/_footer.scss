@@ -9,7 +9,7 @@ footer {
     text-align: center;
     color: #b8b8b9;
     font-size: 14px;
-    font-family: 
+    font-family: $fontsecond;
 }
 
 .list-footer {
@@ -31,6 +31,8 @@ footer {
 .item-list-footer {
     text-decoration: none;
     color: $colorsecond;
+    font-family: $fontsecond;
+    font-weight: 600;
 }
 
 
