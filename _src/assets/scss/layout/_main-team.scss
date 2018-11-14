@@ -1,99 +1,99 @@
 .container-team {
-    position: relative;
+  position: relative;
 }
+
 .links-team {
-    position: absolute;
-    bottom: 330px;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
+  position: absolute;
+  bottom: 330px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
 }
 
 .team {
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    color: $colortext;
-    font-weight: 100;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 45px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  color: $colortext;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 45px;
 }
 
 .description-team {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #54585A;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-left: 45px;
-    margin-right: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #54585A;
+  text-align: center;
+  margin: 0 45px 30px 45px;
 }
 
 .strenghs {
-    background-color: #f1f1f1;
-    padding-top: 30px;
-    padding-bottom: 15px;
+  background-color: #f1f1f1;
+  padding-top: 30px;
+  width: 100vw;
 }
 
 .form {
-    background-color: white;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin-left: 50%;
-    transform: translate(-50%, -50%) rotate(0.38turn);
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%) rotate(0.38turn);
 }
 
 .team-1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    color: #099D8D;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  color: #099D8D;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @media all and (min-width: 768px) {
-    .links-team {
-        bottom: 100px;
-    }
-    .strenghs {
-        display: flex;
-        flex-direction: row;
-    }
-    .strenghs-tablet {
-        display: inline-block;
-        width: 50%;
-        order: 1;
-    }
-    .weakness-tablet {
-        display: inline-block;
-        width: 50%;
-        order: 2;
-    }
+  .links-team {
+    bottom: 100px;
+  }
+
+  .strenghs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .strenghs-tablet {
+    display: inline-block;
+    width: 50%;
+    order: 1;
+  }
+
+  .weakness-tablet {
+    display: inline-block;
+    width: 50%;
+    order: 2;
+  }
 }
 
 @media all and (min-width: 1200px) {
-    .description-team {
-        margin-bottom: 60px;
-            margin-left: 80px;
-            margin-right: 80px;
-        }
-        .strenghs {
-            padding-top: 30px;
-        }
-        .picture {
-            width: 278px;
-            height: 278px;
-        }
-        .picture-left {
-            margin-left: 100px;
-        }
-        .picture-right {
-            margin-right: 100px;
-        }
-        .links-team {
-            top: -88px;
-        }
-    }
+  .description-team {
+    display: inline-block;
+    margin: 0 300px 60px 300px;
+  }
+
+  .strenghs {
+    padding-top: 30px;
+  }
+
+  .container-strenghs {
+    max-width: 970px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .links-team {
+    top: -88px;
+  }
+}
