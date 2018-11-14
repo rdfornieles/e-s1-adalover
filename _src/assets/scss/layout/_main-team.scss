@@ -19,6 +19,10 @@
     text-align: center;
     margin-bottom: 15px;
     margin-top: 45px;
+
+    &:hover {
+      font-size: 22px;
+  }
 }
 
 .description-team {
@@ -53,6 +57,8 @@
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
+
+
 }
 
 @media all and (min-width: 768px) {

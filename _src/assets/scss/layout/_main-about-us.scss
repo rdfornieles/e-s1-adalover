@@ -8,6 +8,11 @@
     text-align: center;
     margin: 30px;
     margin-top: 0;
+
+
+    &:hover {
+        font-size: 22px;
+    }
 }
 
 .name {
@@ -45,6 +50,11 @@
     margin-top: 15px;
     margin-bottom: 45px;
     padding: 0px 100px;
+    transition: all 1s ease;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
 
     
 }
