@@ -1,7 +1,15 @@
-.header {
+.header__main {
     position: relative;
     width: 100%;
     height: 421px;
+    background-image: url("../images/cabecera.jpg");
+    background-size: cover;
+}
+
+.header__contact {
+    position: relative;
+    width: 100%;
+    height: 300px;
     background-image: url("../images/cabecera.jpg");
     background-size: cover;
 }
@@ -25,14 +33,13 @@
     padding-bottom: 22px;
     text-align: center;
     font-size: inherit;
-    
 }
+
 .link__main {
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: $fontprincipal;
     font-size: $sizetext;
-
     &:hover {
         font-size: 20px;
     }
@@ -64,12 +71,10 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-  
 }
 
 .item-list:hover {
     border-bottom: 2px solid white;
-
 }
 
 .claim {
@@ -86,55 +91,49 @@
     left: 50%;
     transform: translate(-50%, 0);
     min-width: 250px;
-    
-
 }
 
 @media all and (min-width: 768px) {
-
-    .container-name{
+    .container-name {
         display: flex;
         justify-content: space-between;
         height: 60px;
         padding-right: 45px;
         padding-left: 45px;
     }
-
     .menu {
         background-color: inherit;
         padding-top: 22px;
     }
-
     .list {
         margin: 0px;
         padding: 0px;
         width: 300px;
     }
-
     .item-list {
         padding: 0px;
     }
-
-.claim {
-    width: 441px;
-    padding: 30px 15px;
-    bottom: -1px;
-    background-color: rgba(255, 255, 255, 0.829);
-    left: 55px;
-    transform: none;
-}
-
+    .claim {
+        width: 441px;
+        padding: 30px 15px;
+        bottom: -1px;
+        background-color: rgba(255, 255, 255, 0.829);
+        left: 55px;
+        transform: none;
+    }
 }
 
 @media all and (min-width: 1200px) {
-.header {
-    height: 550px;
-}
-
-.container-name{
-    max-width: 970px;
-    margin: auto;
-    padding-right: 0;
-    padding-left: 0;
-}
+    .header__main {
+        height: 550px;
+    }
+    .header__contact {
+        height: 400px;
+    }
+    .container-name {
+        max-width: 970px;
+        margin: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
