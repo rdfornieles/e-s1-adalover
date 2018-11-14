@@ -32,6 +32,7 @@
 .strenghs {
     background-color: #f1f1f1;
     padding-top: 30px;
+    width: 100vw;
 }
 
 .form {
@@ -76,21 +77,15 @@
 @media all and (min-width: 1200px) {
     .description-team {
         margin-bottom: 60px;
-            margin-left: 80px;
-            margin-right: 80px;
         }
         .strenghs {
             padding-top: 30px;
         }
-        .picture {
-            width: 278px;
-            height: 278px;
-        }
-        .picture-left {
-            margin-left: 100px;
-        }
-        .picture-right {
-            margin-right: 100px;
+        .container-strenghs {
+            max-width: 970px;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
         }
         .links-team {
             top: -88px;
