@@ -79,15 +79,16 @@
 }
 
 @media all and (min-width: 1200px) {
+  .container-team {
+    margin: 0 300px 60px 300px;
+  }
   .description-team {
     display: inline-block;
-    margin: 0 300px 60px 300px;
   }
 
   .strenghs {
     padding-top: 30px;
   }
-
   .container-strenghs {
     max-width: 970px;
     display: flex;
