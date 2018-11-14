@@ -1,3 +1,4 @@
+
 .about {
     color: #099D8D;
     font-family: 'Rubik', sans-serif;
@@ -5,6 +6,7 @@
     font-weight: normal;
     text-align: center;
     margin: 30px;
+    margin-top: 0;
 }
 
 .name {
@@ -64,6 +66,13 @@
     grid-column: 1 / 2;
 }
 
+.links-about-us {
+    position: absolute;
+    top: 940px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
 @media all and (min-width: 768px) {
     .about {
         margin: 45px;
@@ -109,6 +118,11 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .links-about-us {
+        top: 669px;
+    }
+
+}
     @media all and (min-width: 1200px) {
         .description-left {
             margin-left: 45px;
@@ -124,5 +138,7 @@
             margin-block-end: 60px;
             margin-block-start: 45px;
         }
+        .links-about-us {
+            top: 920px;
+        }
     }
-}
