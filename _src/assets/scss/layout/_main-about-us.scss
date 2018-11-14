@@ -118,17 +118,19 @@
 
 }
     @media all and (min-width: 1200px) {
+        .profiles {
+            max-width: 970px;
+            margin: 0 auto;
+        }
         .description-left {
             margin-left: 45px;
-            margin-right: 200px;
-            margin-bottom: 15px;
+            margin-right: 158px;
             margin-block-end: 60px;
             margin-block-start: 45px;
         }
         .description-right {
             margin-right: 45px;
-            margin-left: 200px;
-            margin-bottom: 15px;
+            margin-left: 162px;
             margin-block-end: 60px;
             margin-block-start: 45px;
         }
