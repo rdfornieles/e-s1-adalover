@@ -1,5 +1,6 @@
 footer {
     border-top: 1px solid grey;
+    font-family: $fontsecond;
 }
 
 .name-group-footer {
@@ -9,7 +10,7 @@ footer {
     text-align: center;
     color: #b8b8b9;
     font-size: 14px;
-    
+    font-family: 
 }
 
 .list-footer {
@@ -19,6 +20,7 @@ footer {
     color: $colorsecond;
     font-size: 14px;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .image-footer {
