@@ -29,11 +29,36 @@
     color:white;
     font-family: $fontprincipal;
     font-size: $sizetext;
+    animation: color 3s;
+    animation-iteration-count: infinite;
 
     &:hover {
         font-size: 20px;
     }
 }
+
+@keyframes color {
+   
+    0% {
+      color: #d2dae2;
+    }
+   
+    25% {
+color: #63cdda;
+    }
+
+    50% {
+        color: #3dc1d3;
+    }
+
+    70% {
+color:#f3a683;
+    }
+    
+    100% {
+      color: #f78fb3;
+    }
+  }
 
 .menu {
     height: 45px;
@@ -44,7 +69,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
+
+
 
 .list {
     width: 100%;
