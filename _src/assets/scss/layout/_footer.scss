@@ -39,7 +39,6 @@ footer {
     text-transform: uppercase;
 }
 
-
 @media all and (min-width: 768px) {
     .footer-tablet {
         height: 170px;
@@ -48,21 +47,18 @@ footer {
         justify-content: space-between;
     }
     .name-group-footer {
-       margin-top: 30px;
-       margin-bottom: 15px;
-       margin-left: 138px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 138px;
     }
-
     .menu-footer {
         order: 3;
         margin-right: 138px;
         margin-top: 25px;
     }
-
     .list-footer {
         text-align: right;
     }
-
     .logo-footer {
         order: 2;
         position: absolute;
@@ -71,17 +67,12 @@ footer {
         margin-left: 127px;
         margin-bottom: 60px;
     }
-
     .image-footer {
-        width: 115,9px;
+        width: 115, 9px;
         height: 45px;
     }
-
     .item-list-footer {
         display: inline-block;
         margin-bottom: 10px;
     }
-    
 }
-
-
