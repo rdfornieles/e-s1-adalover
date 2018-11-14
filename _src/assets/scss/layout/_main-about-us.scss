@@ -17,17 +17,6 @@
     margin: 0px;
 }
 
-.profiles {
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
-    width: 100%;
-    
-}
-
-
 .description {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -81,7 +70,11 @@
         margin: 0px;
     }
     .profiles {
-        padding: 0px 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        width: 100%;
+
     }
     .left {
         display: flex;
