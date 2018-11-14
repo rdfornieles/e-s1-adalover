@@ -13,6 +13,11 @@
     z-index: 2;
 }
 
+.animation {
+    position: relative;
+    height: 30px;
+}
+
 .group-name {
     margin: 0;
     padding-top: 22px;
@@ -26,6 +31,10 @@
     color:white;
     font-family: $fontprincipal;
     font-size: $sizetext;
+
+    &:hover {
+        font-size: 20px;
+    }
 }
 
 .menu {
