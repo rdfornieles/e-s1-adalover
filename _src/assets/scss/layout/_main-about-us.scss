@@ -67,11 +67,10 @@
 }
 
 .links-about-us {
-    border: 1px solid gray;
     position: absolute;
     top: 940px;
-    width: 100px;
-    height: 100px;
+    width: 0;
+    height: 0;
     z-index: 1;
 }
 @media all and (min-width: 768px) {
@@ -140,6 +139,6 @@
             margin-block-start: 45px;
         }
         .links-about-us {
-            top: 940px;
+            top: 920px;
         }
     }
