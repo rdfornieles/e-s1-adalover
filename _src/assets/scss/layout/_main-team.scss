@@ -1,11 +1,22 @@
+.container-team {
+    position: relative;
+}
+.links-team {
+    position: absolute;
+    bottom: 330px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
 .team {
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     color: $colortext;
     font-weight: 100;
     text-align: center;
-    margin-top: 45px;
     margin-bottom: 15px;
+    margin-top: 45px;
 }
 
 .description-team {
@@ -44,6 +55,9 @@
 }
 
 @media all and (min-width: 768px) {
+    .links-team {
+        bottom: 100px;
+    }
     .strenghs {
         display: flex;
         flex-direction: row;
@@ -58,9 +72,11 @@
         width: 50%;
         order: 2;
     }
-    @media all and (min-width: 1200px) {
-        .description-team {
-            margin-bottom: 60px;
+}
+
+@media all and (min-width: 1200px) {
+    .description-team {
+        margin-bottom: 60px;
             margin-left: 80px;
             margin-right: 80px;
         }
@@ -77,5 +93,7 @@
         .picture-right {
             margin-right: 100px;
         }
+        .links-team {
+            top: -88px;
+        }
     }
-}
