@@ -85,7 +85,7 @@
     .profiles {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
         width: 100%;
 
     }
@@ -121,11 +121,19 @@
         padding: 0px;
     }
     .description {
-        margin-left: 0px;
-        margin-right: 0px;
+    
+        padding: 0px;
+    }
+    .profile1 {
+        padding-left: 45px;
+        padding-right: 45px; 
+        margin-bottom: 40px;
     }
     .links-about-us {
         top: 669px;
+    }
+    .picture {
+        margin-bottom: 0px;
     }
 
 }
@@ -136,17 +144,19 @@
         }
         .description-left {
             margin-left: 45px;
-            margin-right: 158px;
             margin-block-end: 60px;
             margin-block-start: 45px;
+            height: 200px;
         }
         .description-right {
             margin-right: 45px;
-            margin-left: 162px;
             margin-block-end: 60px;
             margin-block-start: 45px;
         }
         .links-about-us {
             top: 920px;
+        }
+        .description {
+            max-width: 445px;
         }
     }

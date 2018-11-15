@@ -24,7 +24,13 @@
       font-size: 22px;
   }
 }
-
+.description-general {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #54585A;
+  text-align: center;
+  margin: 0 45px 30px 45px;
+}
 .description-team {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -37,7 +43,7 @@
   background-color: #f1f1f1;
   padding-top: 30px;
   width: 100vw;
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .form {
@@ -66,7 +72,7 @@
     bottom: 100px;
   }
 
-  .strenghs {
+  .container-strenghs {
     display: flex;
     flex-direction: row;
   }
