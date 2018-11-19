@@ -50,14 +50,21 @@
     margin-top: 15px;
     margin-bottom: 45px;
     padding: 0px 100px;
+   
+
+    
+}
+
+.items-icons {
     transition: all 1s ease;
 
     &:hover {
         transform: rotate(360deg);
+
     }
 
-    
 }
+
 
 .iconcolor {
     color: #099D8D;

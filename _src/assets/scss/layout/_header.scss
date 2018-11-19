@@ -72,10 +72,7 @@
     font-size: $sizetext;
     animation: color 3s ease;
     animation-iteration-count: infinite;
-    
-    &:hover {
-        font-size: 20px;
-    }
+
 }
 
 @keyframes color {
