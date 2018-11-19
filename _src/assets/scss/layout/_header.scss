@@ -2,15 +2,26 @@
     position: relative;
     width: 100%;
     height: 421px;
-    background-image: url("../images/cabecera.jpg");
+    background-image: url("../images/fondo-header.jpg");
     background-size: cover;
+}
+.container-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-header {
+    width: 287px;
+    height: 260px;
 }
 
 .header__contact {
     position: relative;
     width: 100%;
     height: 300px;
-    background-image: url("../images/cabecera.jpg");
+    background-image: url("../images/contacto-grafiti.jpg");
     background-size: cover;
 }
 
@@ -140,6 +151,9 @@ color:#f3a683;
 .claim__hidden {
     display: none;
 }
+.hidden-image {
+    display: none;
+}
 
 @media all and (min-width: 768px) {
     .container-name {
@@ -169,6 +183,9 @@ color:#f3a683;
         left: 55px;
         transform: none;
     }
+    .image-header {
+        transform: scale(1.2);
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -183,5 +200,8 @@ color:#f3a683;
         margin: auto;
         padding-right: 0;
         padding-left: 0;
+    }
+    .image-header {
+        transform: scale(1.8);
     }
 }
