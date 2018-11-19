@@ -32,6 +32,28 @@
     font-size: inherit;
 }
 
+.fas.fa-heartbeat {
+    color: rgb(184, 3, 3);
+    padding-right: 20px;
+    animation: beats 1.5s infinite;
+  transform-origin: center;
+}
+
+@keyframes beats {
+  from {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(2.5);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+
 .link__main {
     text-decoration: none;
     color: white;
