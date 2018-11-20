@@ -19,8 +19,10 @@
     text-align: center;
     margin-bottom: 15px;
     margin-top: 45px;
+    transition: color ease 0.7s;
+
     &:hover {
-        font-size: 22px;
+        color: rgb(108, 240, 227);
     }
 }
 

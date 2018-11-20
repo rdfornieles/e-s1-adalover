@@ -7,8 +7,10 @@
     text-align: center;
     margin: 30px;
     margin-top: 30px;
+    transition: color ease 0.7s;
+
     &:hover {
-        font-size: 22px;
+        color: rgb(108, 240, 227);
     }
 }
 
